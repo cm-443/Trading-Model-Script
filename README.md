@@ -2,6 +2,7 @@
 Model and trading script using the trader's dynamic index. 
 
 These are currently configured for use with the Oanda API.
+NOTE: RUNNING API KEYS EVEN LOCALLY IS DANGEROUS AND A REAL PRODUCTION SCRIPT SHOULD USE SECRETS MANAGER OR EQUIVALENT. 
 
 To run them as is without modification, you must open an Oanda trading account and obtain an api key. No min deposit required, fees are built into spread. 
 
@@ -16,11 +17,6 @@ The script in list.py is suppose to compile all the lists into one master list a
 Once you have a list, add it to the tdi-model.py and run it. When finished, it will output the model in the main directory.
 
 After, run the trading script and update the model name if changed. My error is posted below. 
-
-
-
-
-
 
 #current error when ran
 Traceback (most recent call last):
