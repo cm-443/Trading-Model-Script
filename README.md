@@ -2,6 +2,7 @@
 Model and trading script using the trader's dynamic index. 
 
 These are currently configured for use with the Oanda API.
+
 NOTE: RUNNING API KEYS EVEN LOCALLY IS DANGEROUS AND A REAL PRODUCTION SCRIPT SHOULD USE SECRETS MANAGER OR EQUIVALENT. 
 
 To run them as is without modification, you must open an Oanda trading account and obtain an api key. No min deposit required, fees are built into spread. 
