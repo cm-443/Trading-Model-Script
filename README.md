@@ -1,7 +1,22 @@
 # tdi
 Model and trading script using the trader's dynamic index. 
 
-This 
+These are currently configured for use with the Oanda API.
+
+To run them as is without modification, you must open an Oanda trading account and obtain an api key. No min deposit required, fees are built into spread. 
+
+Instructions for the script as is with Oanda:
+
+Update the accountID and access_token variables with your credentials on the 5-sec.py and tdi-trade.py
+
+Gather the historical data with 5-sec.py script via the Oanda API. It gathers 5 sec data for a 24 hour period, you’ll need to update the date for each time you run it. (Theres probably a better way.) The script also requires a file directory in your IDE (PyCharm) named “csv” and and the script called “lists.py”. The script will run, upload the csv files into the csv directory, and print a list in the “list.py” file. If you need 30 days of data, you’ll update the date each time and a new list will be entered into the list.py
+
+The script in list.py is suppose to compile all the lists into one master list and append the 'csv/' prefix when ran but its erroring out. Needs debugging. 
+
+Once you have a list, add it to the tdi-model.py and run it. When finished, it will output the model in the main directory.
+
+After, run the trading script and update the model name if changed. My error is posted below. 
+
 
 
 
